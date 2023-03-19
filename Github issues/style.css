@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#pageTitle {
+    padding: 10px;
+    background: blue;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+    color:yellow
+}
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#load_prev {
+    background-color: red;
+    border-radius: 7px;
+}
+#load_prev:hover {
+    background-color: blue;
+
+}
+#load_next:hover {
+    background-color: red;
+
+}
+
+#load_next {
+    background-color: green;
+    border-radius: 7px;
+
+}
+
+ol {
+    width: 30%;
+    margin: auto;
+}
+
+ol > li {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+    color: red;
+}
